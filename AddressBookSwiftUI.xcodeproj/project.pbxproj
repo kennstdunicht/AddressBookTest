@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C77AD0792B17886D00627DED /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77AD0782B17886D00627DED /* Address.swift */; };
+		C77AD07D2B17A2FA00627DED /* AddressDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77AD07C2B17A2FA00627DED /* AddressDetailView.swift */; };
+		C77AD07F2B17AA9600627DED /* AddressDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77AD07E2B17AA9600627DED /* AddressDetailViewModel.swift */; };
+		C77AD0812B17AAA700627DED /* AddressDetailComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77AD0802B17AAA700627DED /* AddressDetailComponent.swift */; };
 		C79D549A2B0F67A0002F89CB /* AddressBookSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79D54992B0F67A0002F89CB /* AddressBookSwiftUIApp.swift */; };
-		C79D549C2B0F67A0002F89CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79D549B2B0F67A0002F89CB /* ContentView.swift */; };
+		C79D549C2B0F67A0002F89CB /* AddressesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79D549B2B0F67A0002F89CB /* AddressesView.swift */; };
 		C79D549E2B0F67A1002F89CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C79D549D2B0F67A1002F89CB /* Assets.xcassets */; };
 		C79D54A12B0F67A1002F89CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C79D54A02B0F67A1002F89CB /* Preview Assets.xcassets */; };
+		C79D54AA2B0F6817002F89CB /* RootComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79D54A92B0F6817002F89CB /* RootComponent.swift */; };
+		C79D54AD2B0F6828002F89CB /* NeedleFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = C79D54AC2B0F6828002F89CB /* NeedleFoundation */; };
+		C79D54AF2B0F6828002F89CB /* NeedleFoundationTest in Frameworks */ = {isa = PBXBuildFile; productRef = C79D54AE2B0F6828002F89CB /* NeedleFoundationTest */; };
+		C79D54B22B0F68EC002F89CB /* NeedleGenerated.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79D54B12B0F68EC002F89CB /* NeedleGenerated.swift */; };
+		C79D54B42B0F6BF5002F89CB /* AddressesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79D54B32B0F6BF5002F89CB /* AddressesViewModel.swift */; };
+		C7CE56E22B14CA36004AC339 /* AddressRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CE56E12B14CA36004AC339 /* AddressRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C77AD0782B17886D00627DED /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		C77AD07C2B17A2FA00627DED /* AddressDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressDetailView.swift; sourceTree = "<group>"; };
+		C77AD07E2B17AA9600627DED /* AddressDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressDetailViewModel.swift; sourceTree = "<group>"; };
+		C77AD0802B17AAA700627DED /* AddressDetailComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressDetailComponent.swift; sourceTree = "<group>"; };
 		C79D54962B0F67A0002F89CB /* AddressBookSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressBookSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C79D54992B0F67A0002F89CB /* AddressBookSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressBookSwiftUIApp.swift; sourceTree = "<group>"; };
-		C79D549B2B0F67A0002F89CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C79D549B2B0F67A0002F89CB /* AddressesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressesView.swift; sourceTree = "<group>"; };
 		C79D549D2B0F67A1002F89CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C79D54A02B0F67A1002F89CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C79D54A92B0F6817002F89CB /* RootComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootComponent.swift; sourceTree = "<group>"; };
+		C79D54B12B0F68EC002F89CB /* NeedleGenerated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeedleGenerated.swift; sourceTree = "<group>"; };
+		C79D54B32B0F6BF5002F89CB /* AddressesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressesViewModel.swift; sourceTree = "<group>"; };
+		C7CE56E12B14CA36004AC339 /* AddressRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +44,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C79D54AF2B0F6828002F89CB /* NeedleFoundationTest in Frameworks */,
+				C79D54AD2B0F6828002F89CB /* NeedleFoundation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C77AD07B2B17A2E200627DED /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				C77AD07C2B17A2FA00627DED /* AddressDetailView.swift */,
+				C77AD07E2B17AA9600627DED /* AddressDetailViewModel.swift */,
+				C77AD0802B17AAA700627DED /* AddressDetailComponent.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 		C79D548D2B0F67A0002F89CB = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +81,11 @@
 		C79D54982B0F67A0002F89CB /* AddressBookSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				C79D54A82B0F67DC002F89CB /* Root */,
+				C7CE56E02B14C78E004AC339 /* Service */,
+				C79D54B12B0F68EC002F89CB /* NeedleGenerated.swift */,
+				C77AD07B2B17A2E200627DED /* Detail */,
 				C79D54992B0F67A0002F89CB /* AddressBookSwiftUIApp.swift */,
-				C79D549B2B0F67A0002F89CB /* ContentView.swift */,
 				C79D549D2B0F67A1002F89CB /* Assets.xcassets */,
 				C79D549F2B0F67A1002F89CB /* Preview Content */,
 			);
@@ -67,6 +100,25 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		C79D54A82B0F67DC002F89CB /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				C79D54B32B0F6BF5002F89CB /* AddressesViewModel.swift */,
+				C79D549B2B0F67A0002F89CB /* AddressesView.swift */,
+				C79D54A92B0F6817002F89CB /* RootComponent.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		C7CE56E02B14C78E004AC339 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C7CE56E12B14CA36004AC339 /* AddressRepository.swift */,
+				C77AD0782B17886D00627DED /* Address.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +126,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C79D54A42B0F67A1002F89CB /* Build configuration list for PBXNativeTarget "AddressBookSwiftUI" */;
 			buildPhases = (
+				C79D54B02B0F6897002F89CB /* needle */,
 				C79D54922B0F67A0002F89CB /* Sources */,
 				C79D54932B0F67A0002F89CB /* Frameworks */,
 				C79D54942B0F67A0002F89CB /* Resources */,
@@ -83,6 +136,10 @@
 			dependencies = (
 			);
 			name = AddressBookSwiftUI;
+			packageProductDependencies = (
+				C79D54AC2B0F6828002F89CB /* NeedleFoundation */,
+				C79D54AE2B0F6828002F89CB /* NeedleFoundationTest */,
+			);
 			productName = AddressBookSwiftUI;
 			productReference = C79D54962B0F67A0002F89CB /* AddressBookSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +168,9 @@
 				Base,
 			);
 			mainGroup = C79D548D2B0F67A0002F89CB;
+			packageReferences = (
+				C79D54AB2B0F6828002F89CB /* XCRemoteSwiftPackageReference "needle" */,
+			);
 			productRefGroup = C79D54972B0F67A0002F89CB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -132,13 +192,42 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C79D54B02B0F6897002F89CB /* needle */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = needle;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n./Generator/bin/needle generate AddressBookSwiftUI/NeedleGenerated.swift AddressBookSwiftUI/\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C79D54922B0F67A0002F89CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C79D549C2B0F67A0002F89CB /* ContentView.swift in Sources */,
+				C79D54B22B0F68EC002F89CB /* NeedleGenerated.swift in Sources */,
+				C79D549C2B0F67A0002F89CB /* AddressesView.swift in Sources */,
+				C7CE56E22B14CA36004AC339 /* AddressRepository.swift in Sources */,
+				C79D54AA2B0F6817002F89CB /* RootComponent.swift in Sources */,
+				C79D54B42B0F6BF5002F89CB /* AddressesViewModel.swift in Sources */,
+				C77AD0812B17AAA700627DED /* AddressDetailComponent.swift in Sources */,
+				C77AD07F2B17AA9600627DED /* AddressDetailViewModel.swift in Sources */,
 				C79D549A2B0F67A0002F89CB /* AddressBookSwiftUIApp.swift in Sources */,
+				C77AD07D2B17A2FA00627DED /* AddressDetailView.swift in Sources */,
+				C77AD0792B17886D00627DED /* Address.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +363,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AddressBookSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = U6T937D5B4;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -303,6 +393,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AddressBookSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = U6T937D5B4;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -344,6 +435,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C79D54AB2B0F6828002F89CB /* XCRemoteSwiftPackageReference "needle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/uber/needle.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C79D54AC2B0F6828002F89CB /* NeedleFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C79D54AB2B0F6828002F89CB /* XCRemoteSwiftPackageReference "needle" */;
+			productName = NeedleFoundation;
+		};
+		C79D54AE2B0F6828002F89CB /* NeedleFoundationTest */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C79D54AB2B0F6828002F89CB /* XCRemoteSwiftPackageReference "needle" */;
+			productName = NeedleFoundationTest;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C79D548E2B0F67A0002F89CB /* Project object */;
 }

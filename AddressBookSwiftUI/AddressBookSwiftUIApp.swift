@@ -1,17 +1,18 @@
-//
-//  AddressBookSwiftUIApp.swift
-//  AddressBookSwiftUI
-//
-//  Created by Marcel Derks on 23.11.23.
-//
-
 import SwiftUI
 
 @main
 struct AddressBookSwiftUIApp: App {
+    
+    var rootComponent: RootComponent?
+    
+    init() {
+        registerProviderFactories()
+        rootComponent = RootComponent()
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            rootComponent?.addressView
         }
     }
 }
