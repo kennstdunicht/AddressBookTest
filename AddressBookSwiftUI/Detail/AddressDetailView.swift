@@ -10,6 +10,7 @@ struct AddressDetailView: View {
             Text("Street: \(viewModel.address.street)")
             Text("City: \(viewModel.address.city)")
         }
+        .background(Color.gray)
         .padding()
         .navigationTitle("Address Detail")
     }

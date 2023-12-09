@@ -7,13 +7,25 @@ struct AddressesView<ViewModel>: View where ViewModel: AddressesViewModelProtoco
     
     var body: some View {
         NavigationView {
-            List(viewModel.addresses) { address in
-                NavigationLink(destination: 
-                                detailBuilder.addressDetailView(selectedId: address.id)) {
-                    AddressRow(address: address)
+            ZStack {
+                List(viewModel.addresses) { address in
+                    NavigationLink(destination:
+                                    detailBuilder.addressDetailView(selectedId: address.id)) {
+                        AddressRow(address: address)
+                    }
                 }
+                .navigationTitle("Address List")
+                
+                Color.clear
+                    .overlay(alignment: .bottomTrailing) {
+                        Button("Tap me") {
+                            // Handle button tap action
+                            print("Button tapped!")
+                        }
+                        .padding([.trailing, .bottom], 20)
+                    }
             }
-            .navigationTitle("Address List")
+  
         }
     }
 }
